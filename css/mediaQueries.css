@@ -1,0 +1,108 @@
+@media screen and (max-width: 1175px) {
+    .project-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .project-box{
+        min-height: 250px;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .flexSpaceEvenly{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }   
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skill-box{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .flexSpaceEvenly{
+        justify-content: center;
+    }    
+    .home-section > div:nth-of-type(2){
+        width: 100%;
+        margin: 10px 0px 30px 0px;
+    }
+    .home-section > div:nth-of-type(3){
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .home-section > div:nth-of-type(3) > div{
+        margin: auto;
+    }
+    .about-container > .about-box:nth-of-type(1), .about-container > .about-box:nth-of-type(2){
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .contact-container{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .flexSpaceBetween{
+        flex-wrap: wrap;
+    }
+    .hContainer{
+        width: 100%;
+        display: none;
+    }    
+    .hBox{
+        width: 100%;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .hBox > div{
+        display: none;
+    }
+    .project-box{
+        min-height: 250px;
+        width: 100%;
+    }
+    .contact-container{
+        padding: 25px 20px;
+    }
+    .skill-box{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .flexSpaceEvenly{
+        justify-content: center;
+    }    
+    .home-section > div:nth-of-type(2){
+        width: 100%;
+        margin: 10px 0px 30px 0px;
+    }
+    .home-section > div:nth-of-type(3){
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .home-section > div:nth-of-type(3) > div{
+        margin: auto;
+    }
+    .about-container > .about-box:nth-of-type(1), .about-container > .about-box:nth-of-type(2){
+        width: 90%;
+        margin: 20px 0px;
+    }
+    .contact-container{
+        padding: 20px 10px;
+    }
+    .soft-skill{
+        width: 100%;
+    }
+}
