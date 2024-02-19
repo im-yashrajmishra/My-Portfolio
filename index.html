@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashraj Mishra Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="flexSpaceBetween">
+        <a class="htext1 skyblue" href="" target="_self">Portfolio.</a>
+        <img src="images/hamburgerIcon.png" alt="" class="hamburger-menu" onclick="hamburgerMenu()">
+        <div class="hContainer flexSpaceBetween"><br>
+            <div class="hBox" onclick="scrollToSection('home')">
+                <p class="htext2 skyblue">Home</p>
+                <div></div>
+            </div>
+            <div class="hBox" onclick="scrollToSection('about')">
+                <p class="htext2 skyblue">About</p>
+                <div></div>
+            </div>
+            <div class="hBox" onclick="scrollToSection('skill')">
+                <p class="htext2 skyblue">Skills</p>
+                <div></div>
+            </div>
+            <div class="hBox" onclick="scrollToSection('project')">
+                <p class="htext2 skyblue">Projects</p>
+                <div></div>
+            </div>
+            <div class="hBox" onclick="scrollToSection('contact')">
+                <p class="htext2 skyblue">Contact</p>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main><br><br>
+        <section class="home-section flexSpaceEvenly" id="home">
+            <div class="blink"></div>
+            <div class="home-box flexCenter">
+                <img src="images/my-photo1.png" alt="">
+            </div><br><br>
+            <div class="home-box">
+                <p class="mtext2" id="mtext21"><label for="mtext21" class="white">Hello,</label><label for="mtext21" class="skyblue"> It's Me</label></p>
+                <p class="mtext1 white">Yashraj Mishra</p>
+                <p class="mtext2" id="mtext22"><label for="mtext22" class="white">Looking for </label><label for="mtext22" class="typing-effect skyblue"></label></p><br>
+                <div class="flexSpaceBetween">
+                    <a href="https://github.com/im-yashrajmishra" class="profile-links" title="Github Profile Link"><img class="profile-link-image" src="images/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/im-yashrajmishra/" class="profile-links" title="Linkedin Profile Link"><img class="profile-link-image" src="images/linkedin.png" alt=""></a>
+                    <a href="https://leetcode.com/im_yashraj/" class="profile-links" title="Leetcode Profile Link"><img class="profile-link-image" src="images/leetcode.png" alt=""></a>
+                </div><br>
+                <a href="resume.pdf" target="_self" class="button1 skyblue mtext3" title="Download Resume">Download Resume</a>
+            </div><br><br>
+        </section><br><br>
+        <section class="about-section" id="about">
+            <div class="blink"></div>
+            <p class="mtext4" id="mtext41"><label for="mtext41" class="white">About </label><label for="mtext41" class="skyblue">Me</label></p><br><br>
+            <div class="about-container flexSpaceEvenly">
+                <div class="about-box">
+                    <p class="mtext5 skyblue">Fresher</p><br>
+                    <p class="mtext3 white">Computer Science and Engineering graduate with a strong foundation in math and problem-solving, and a 
+                        keen interest in coding. Seeking an entry-level role as a frontend developer or java developer, I am motivated 
+                        to contribute to a dynamic team and continually expand my technical expertise.</p><br>
+                    <button class="button1 mtext3 skyblue" title="Tap to see Education details" onclick="rotateImage()">Education Details</button>
+                </div><br><br>
+                <div class="about-box">
+                    <div class="about-card">
+                        <div class="about-card-front flexCenter">
+                            <img src="images/my-photo3.png" alt="">
+                        </div>
+                        <div class="about-card-back">
+                            <p class="mtext5 skyblue">Bachelor of Technology</p><br>
+                            <ul>
+                                <li class="mtext3 skyblue" id="mtext31"><label for="mtext31" class="white">KIET Group Of Institutions</label></li>
+                                <li class="mtext3 skyblue" id="mtext32"><label for="mtext32" class="white">Computer Science & Engineering</label></li>
+                                <li class="mtext3 skyblue" id="mtext33"><label for="mtext33" class="white">08/2019 - 07/2023</label></li>
+                                <li class="mtext3 skyblue" id="mtext34"><label for="mtext34" class="white">7.8 CGPA Aggregate</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+        <section class="skill-section" id="skill">
+            <div class="blink"></div>
+            <p class="mtext4" id="mtext42"><label for="mtext42" class="white">My </label><label for="mtext42" class="skyblue">Skills</label></p><br><br>
+            <div class="skill-container flexSpaceBetween">
+                <div class="skill-box">
+                    <p class="mtext5 skyblue center">Technical Skills</p><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/java.png" alt="">
+                                <p class="mtext3 white">Java</p>
+                            </div>
+                            <p class="mtext7 white">85%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/html.png" alt="">
+                                <p class="mtext3 white">HTML</p>
+                            </div>
+                            <p class="mtext7 white">80%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/css.png" alt="">
+                                <p class="mtext3 white">CSS</p>
+                            </div>
+                            <p class="mtext7 white">75%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/js.png" alt="">
+                                <p class="mtext3 white">JS</p>
+                            </div>
+                            <p class="mtext7 white">75%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/ds.png" alt="">
+                                <p class="mtext3 white">Data Structure</p>
+                            </div>
+                            <p class="mtext7 white">80%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div><br>
+                    <div class="technical-skill">
+                        <div class="flexSpaceBetween">
+                            <div class="flexCenter">
+                                <img src="images/sql.png" alt="">
+                                <p class="mtext3 white">SQL</p>
+                            </div>
+                            <p class="mtext7 white">65%</p>
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <p class="mtext5 skyblue center">Soft Skills</p><br>
+                    <div class="flexSpaceBetween">
+                        <div class="soft-skill">
+                            <div class="flexCenter">
+                                <div class="flexCenter">
+                                    <p class="mtext7 white">80%</p>
+                                </div>
+                            </div>
+                            <p class="mtext3 center white">Problem Solving</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="flexCenter">
+                                <div class="flexCenter">
+                                    <p class="mtext7 white">65%</p>
+                                </div>
+                            </div>
+                            <p class="mtext3 center white">Creativity</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="flexCenter">
+                                <div class="flexCenter">
+                                    <p class="mtext7 white">75%</p>
+                                </div>
+                            </div>
+                            <p class="mtext3 center white">Team Work</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="flexCenter">
+                                <div class="flexCenter">
+                                    <p class="mtext7 white">75%</p>
+                                </div>
+                            </div>
+                            <p class="mtext3 center white">Communication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+        <section class="project-section" id="project">
+            <div class="blink"></div>
+            <p class="mtext4" id="mtext43"><label for="mtext43" class="white">Recent </label><label for="mtext43" class="skyblue">Projects</label></p><br>
+            <div class="project-container flexSpaceBetween">
+                <a class="project-box" href="https://im-yashrajmishra.github.io/SkyCast/" target="_blank">
+                    <div class="project-box-clone"></div>
+                    <p class="mtext5 skyblue">SkyCast</p><br>
+                    <p class="mtext3 white">SkyCast is a weather app leveraging the OpenWeather API, enabling users to input city names and access real-time temperature, humidity, weather descriptions, wind speed, and pressure details. A user-centric solution for up-to-date weather information.</p>
+                </a>
+                <a class="project-box" href="" target="_blank">
+                    <div class="project-box-clone"></div>
+                    <p class="mtext5 skyblue">News Bee</p><br>
+                    <p class="mtext3 white">News Bee is a news app utilizing the NewsAPI API, allowing users to input keywords and receive related news from diverse sources. Streamlined, user-friendly interface for personalized, real-time news updates.</p>
+                </a>
+                <a class="project-box" href="https://im-yashrajmishra.github.io/Todo-List-App/" target="_blank">
+                    <div class="project-box-clone"></div>
+                    <p class="mtext5 skyblue">Todo List App</p><br>
+                    <p class="mtext3 white">Todo List App where users can effortlessly add, mark as completed, edit, or delete tasks. Checklists for completed, uncompleted, and all tasks enhance productivity and organization.</p>
+                </a>
+            </div>
+        </section><br><br>
+        <section class="contact-section" id="contact">
+            <div class="blink"></div>
+            <p class="mtext4" id="mtext44"><label for="mtext44" class="white">Contact </label><label for="mtext44" class="skyblue">Me</label></p><br>
+            <form class="contact-container">
+                <input type="text" name="viewer-name" required id="viewer-name" class="mtext6 black inputField" placeholder="Full Name">
+                <input type="email" name="viewer-email" required id="viewer-email" class="mtext6 black inputField" placeholder="Email Address">
+                <input type="number" name="viewer-number" required id="viewer-number" class="mtext6 black inputField" placeholder="Mobile Number">
+                <input type="text" name="viewer-message-subject" required id="viewer-message-subject" class="mtext6 black inputField" placeholder="Message Subject">
+                <textarea name="viewer-message" id="viewer-message" cols="30" rows="10" required class="black mtext6" placeholder="Your Message"></textarea>
+                <input type="submit" class="button1 mtext3 white" value="Send Message">
+            </form>
+        </section><br><br>
+    </main>
+    <footer>
+        <p class="ftext white">Copyright &copy; 2023 by Yashraj Mishra Portfolio || All Rights Reserved</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
